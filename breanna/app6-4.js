@@ -7,13 +7,11 @@ hobbies.forEach(function(hobby) {
 });
 
 
-// OBJECT
 const hobby = {
     name: "Painting",
     type: "Creative",
     years: 2,
 
-    // Object Method
     describe: function() {
         return this.name + " is a " + this.type +
         " hobby I have done for " + this.years + " years.";
